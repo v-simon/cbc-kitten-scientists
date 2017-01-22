@@ -200,7 +200,7 @@ var run = function() {
                     parchment:  {require: false,         max: 0, limited: true,  enabled: true},
                     manuscript: {require: 'culture',     max: 0, limited: true,  enabled: true},
                     compendium: {require: 'science',     max: 0, limited: true,  enabled: true},
-                    blueprint:  {require: 'science',     max: 0, limited: true,  enabled: false},
+                    blueprint:  {require: 'science',     max: 0, limited: true,  enabled: true},
                     kerosene:   {require: 'oil',         max: 0, limited: true,  enabled: false},
                     megalith:   {require: false,         max: 0, limited: true,  enabled: false},
                     eludium:    {require: 'unobtainium', max: 0, limited: true,  enabled: false},
