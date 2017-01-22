@@ -436,7 +436,7 @@ var run = function() {
             var manager = this.craftManager;
             var trigger = options.auto.craft.trigger;
 
-            for (var name in crafts) {
+            for (var name in crafts.reverse()) {
                 var craft = crafts[name];
                 var current = !craft.max ? false : manager.getResource(name);
                 var require = !craft.require ? false : manager.getResource(craft.require);
